@@ -620,7 +620,7 @@ address {
     display: inline-block;
     background-repeat: no-repeat;
     background-size: contain;
-    color: var(--primary-white-color);
+    fill: var(--primary-white-color);
 
 }
 
