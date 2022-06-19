@@ -616,13 +616,12 @@ address {
 .sign-up-icon {
     position: absolute;
     top: 13px;
-    right: 28px;
+    right: 14px;
     display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-image: url(../images/icon-send.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    color: var(--primary-white-color);
+
 }
 
 
