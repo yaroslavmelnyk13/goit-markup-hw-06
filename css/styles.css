@@ -398,7 +398,7 @@ address {
 
 }
 .team-soc-icon{
-    fill: var(--klients-color);
+    fill: currentColor;
    
 }
 
@@ -818,8 +818,9 @@ address {
     position: absolute;
     left: 50%;
     top: 50%;
+    padding: 40px;
     transform: translate(-50%, -50%) scale(1);
-    transition: tranform 1500ms; 
+    transition: tranform 1500ms linear; 
 
 }
 .modal-close-btn{
@@ -855,14 +856,11 @@ address {
     font-size: 20px;
     line-height: 1.17;
     margin-bottom: 12px;
-    margin-top: 40px;
-    margin-right: 41px;
-    margin-left: 39px;
     color: rgba(33, 33, 33, 1);
 }
 .modal-field {
     margin-bottom: 10px;
-    margin-left: 41px;
+  
 
 }
 .input-wrap {
@@ -912,12 +910,9 @@ address {
     padding: 12px 16px;
 }
 .agree{
-    display: inline-block;
-    width: 423px;
-    height: 24px;
-    margin-left: 54px;
-
-}
+    display: flex;
+    justify-content: center;
+   }
 
 .checkbox-link {
     text-decoration-line: underline;
@@ -961,11 +956,8 @@ address {
 .button-modal-submit{
     display: flex;
     width: 200px;
-    height: 50px;
+    margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: 165px;
-    margin-right: 163px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -974,10 +966,15 @@ address {
     line-height: 1.87;
     letter-spacing: 0.06em;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
    
+}
+.button-modal-submit:hover,
+.button-modal-submit:focus{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 
